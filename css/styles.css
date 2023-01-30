@@ -10,7 +10,7 @@ h1 {
   font-family: "Sacramento", cursive;
   font-size: 5.625rem;
   color: #66bfbf;
-  line-height: 4;
+  line-height: 2;
 }
 
 h2 {
@@ -44,4 +44,34 @@ a {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.problems {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.learning {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skills {
+  width: 50%;
+  margin: auto;
+}
+
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+}
+
+.skill-content {
+  line-height: 2;
+}
+
+.flaticon {
+  display: block;
 }
