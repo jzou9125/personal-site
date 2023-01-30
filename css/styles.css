@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   text-align: center;
@@ -29,7 +35,17 @@ a {
   color: #11999e;
 }
 
+hr {
+  width: 8%;
+  height: 0px;
+  border: 8px dotted;
+  border-top: none;
+  color: #d3d3d3;
+  margin: 30px auto;
+}
+
 .top-container {
+  background-color: #eaf6f6;
   padding: 20px;
   position: relative;
   padding-top: 100px;
@@ -40,10 +56,19 @@ a {
   right: 300px;
   top: 50px;
 }
+
 .bottom-cloud {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.mountain {
+  margin-bottom: 0;
+}
+
+.middle-container {
+  padding: 40px;
 }
 
 .problems {
@@ -70,6 +95,16 @@ a {
 
 .skill-content {
   line-height: 2;
+}
+
+.bottom-container {
+  background-color: #65bfbf;
+}
+
+.email-button {
+  position: relative;
+  background-color: #10aab0;
+  margin: 20px;
 }
 
 .flaticon {
