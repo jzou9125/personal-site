@@ -8,7 +8,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
-  /* font-size: 200%; */
+  color: #40514e;
 }
 
 h1 {
@@ -24,6 +24,7 @@ h2 {
   font-size: 2.5rem;
   color: #66bfbf;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -35,6 +36,10 @@ a {
   color: #11999e;
 }
 
+a:hover {
+  color: #eaf6f6;
+}
+
 hr {
   width: 8%;
   height: 0px;
@@ -44,11 +49,19 @@ hr {
   margin: 30px auto;
 }
 
+p {
+  line-height: 2;
+}
+
 .top-container {
   background-color: #eaf6f6;
-  padding: 20px;
+  padding: 20px 0 0 0;
   position: relative;
-  padding-top: 100px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
 }
 
 .top-cloud {
@@ -64,11 +77,10 @@ hr {
 }
 
 .mountain {
-  margin-bottom: 0;
 }
 
 .middle-container {
-  padding: 40px;
+  padding: 40px 0;
 }
 
 .problems {
@@ -93,20 +105,32 @@ hr {
   text-align: left;
 }
 
-.skill-content {
-  line-height: 2;
-}
-
 .bottom-container {
   background-color: #65bfbf;
 }
 
+.contact-message {
+  width: 30%;
+  margin: 20px auto;
+}
+
 .email-button {
-  position: relative;
-  background-color: #10aab0;
-  margin: 20px;
+  border-radius: 8px;
+  background: #65bfbf;
+  padding: 10px 20px 10px 20px;
+}
+
+.email-button:hover {
+  background: #65bfbf;
+  background-image: linear-gradient(to bottom, #65bfbf, #3dd1d1);
+  text-decoration: none;
 }
 
 .flaticon {
   display: block;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
 }
